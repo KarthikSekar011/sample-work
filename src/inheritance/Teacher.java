@@ -9,10 +9,10 @@ class Library{
 	}
 }
 
-public class Teacher {
+public class Teacher extends Library {
 
 	public static void main(String[] args) {
-		Library lib = new Library();
+		Teacher lib = new Teacher();
 		Scanner sc = new Scanner(System.in);
 		
 		lib.requird();
